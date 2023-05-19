@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Colombia";
+    font-family: "MyFont";
     src: url(/Fontes/Colombia-Rp0DV.ttf);
 }
 
@@ -21,7 +21,7 @@
     --cor-cinza-div: #9A9A9A;
     --cor-preto-acizentado: #1E1E1E;
     --cor-fonte: #000000;
-    --fonte: 'Colombia', 'sans-serif'
+    --fonte: 'MyFont', 'sans-serif'
 }
 
 html{
@@ -30,7 +30,7 @@ html{
 
 body{
     background-color: var(--cor-preto-acizentado);
-    font-family: var(--fonte);
+    font-family: 'MyFont';
     color: var(--cor-fonte);
     font-size: 1.6rem;
 }
@@ -677,7 +677,7 @@ footer .footer-topo a:hover{
 
 .btn-c{
     font-size: 50px;
-    font-family: Colombia;
+    font-family: 'MyFont';
     padding: 1rem 2rem;
     box-shadow: 0 2px 2px 0px var(--cor-verde-musgo);
 }
